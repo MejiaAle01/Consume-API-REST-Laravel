@@ -1,0 +1,69 @@
+GET https://jsonplaceholder.typicode.com/users
+
+POST https://jsonplaceholder.typicode.com/users
+Content-Type: application/json
+
+{
+    "id": 11,
+    "name": "Alejandro Mejia",
+    "username": "Amejia",
+    "email": "amejia@example.com",
+    "address": {
+        "street": "Douglas Extension",
+        "suite": "Suite 847",
+        "city": "McKennaburgh",
+        "zipcode": "96329-5759",
+        "geo": {
+            "lat": "-68.8000", 
+            "lng": "66.5500"
+        }
+    },
+    "phone": "24567-891522",
+    "website": "alemejia.net",
+    "company": {
+        "name": "MEJIACORP LLC",
+        "catchPhrase": "Multi-layered client-driven solution",
+        "bs": "harness real-time e-markets"
+    }
+}
+
+POST https://jsonplaceholder.typicode.com/users
+Content-Type: application/json
+
+{
+    "id": 11,
+    "name": "Alejandro Mejia",
+    "username": "Amejia",
+    "email": "amejia@example.com",
+    "phone": "24567-891522",
+    "website": "alemejia.net"
+}
+
+PUT https://jsonplaceholder.typicode.com/users/10
+Content-Type: application/json
+
+{
+    "id": 10,
+    "name": "Clementina DuBuque A",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+}
+
+DELETE https://jsonplaceholder.typicode.com/users/10
